@@ -1,0 +1,6 @@
+		What happens when you initialize a repository? Why do you need to do it?
+- Git creates the hidden folder where the git commit istory and other info will be stored.
+- This is necessary as you wouldn't want a repository in every folder, only where you need to ustilise git version control.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+- The staging area is a middle-ground between the working directory and the repository.  It allows us to assemble versions and their changes before committing.	
