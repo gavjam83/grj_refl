@@ -13,4 +13,14 @@ What are some situations when branches would be helpful in keeping your history 
 - branches allow these experiments whilst keeping the master branch intact and distinct
 
 How do the diagrams help you visualize the branch structure?
-- Th diagrams should the distinct commits on each branch.
+- The diagrams should the distinct commits on each branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- Merging branches takes the updates from each branch since their shared parent and combines them in a new commit.
+- The commits of both brances are available on the merged branch.
+- the git merge [branch name] command merges the named brach into the currently checked out branch.
+- The new branch retains the name of the checked out branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- automatic merging is fast and will capture all changes
+- manual changing allow ine to apply one's own logic when merge conflicts occur
